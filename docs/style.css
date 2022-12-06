@@ -1,0 +1,57 @@
+/* Font(y) */
+.mcfont {
+    @font-face { font-family: Minecraft; src: url('font.ttf'); }
+    font-family: 'Minecraft', sans-serif;
+}
+
+/* Wielkości */
+.big {
+    font-size: 72px;
+    margin: 0px;
+}
+
+/* Kolory */
+.red {
+    color: red;
+}
+
+.gold {
+    color: gold;
+}
+
+/* Reszta */
+.pixel {
+    image-rendering: pixelated;
+}
+
+.centered {
+    text-align: center;
+}
+/* inne */
+body {
+    margin: 0px;
+    background-image: url('/img/sitebg.png');
+    background-size: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.con {
+    margin-top: 0px;
+}
+
+.toright {
+    float: right;
+}
+
+#renderimg {
+    margin-left: 5px;
+}
+
+
+#maintxt {
+    margin-top: 20px;
+}
